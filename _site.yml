@@ -1,11 +1,8 @@
-name: "MyLabJournal"
+name: "CodeByHarri"
 navbar:
-  title: "MyLabJournal"
+  title: "CodeByHarri"
   left:
-    - text: "Home"
+    - text: "Crypto Risk Metric"
       href: index.html
-    - text: "Journal"
-      href: Journal.html
-    - text: "Links"
-      href: Links.html
+
 output_dir: "docs"
