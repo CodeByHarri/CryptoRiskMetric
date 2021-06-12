@@ -299,26 +299,24 @@ The Crypto Risk Metric
 <em>Roses are red, violets are blue. This is not financial advice, I genuinely have no clue.</em>
 </center>
 <p><br> <br></p>
-<p><strong>Last Updated: 6/06/2021</strong></p>
+<p><strong>Last Updated: 13/06/2021</strong></p>
 <p><br> Simply put this tool is used to dynamically dollar cost average your purchases of a crypto. The risk metric is calculated using some stacked machine learning methods featured on my github. The risk is associated with how much you should be allocating.</p>
 <center>
 <h2>
 Bitcoin Risk Metric
 </h2>
 </center>
-<img src="images/BTC06062021.png" /> <br> <br>
+<div class="figure">
+<img src="images/BTCLONG.png" alt="Risk Since Early 2016" />
+<p class="caption">Risk Since Early 2016</p>
+</div>
 <center>
 <h2>
-Ethereum Risk Metric
+How is the risk calculated?
 </h2>
 </center>
-<img src="images/ETH06062021.png" /> <br> <br>
-<center>
-<h2>
-Cardano Risk Metric
-</h2>
-</center>
-<p><img src="images/ADA06062021.png" /></p>
+<p>Given the BTCUSD data from Yahoo Finance 8 features are created, listed belowed in the diagram. These 8 features are used to predict the normalised price between local highs and lows. The models used are sklearns Extra Trees, Random Forrest and Linear Regression. This process is optimised using Optuna.</p>
+<p><img src="images/model.PNG" /></p>
 
 
 
